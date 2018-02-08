@@ -1,0 +1,17 @@
+{
+    "name": "@paloit-oss/react-typescript-boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate for ReactJS with Typescript",
+    "license": "MIT",
+    "repository": "https://github.com/paloit-oss/react-typescript-boilerplate",
+    "scripts": {
+        "commit": "commit",
+        "commitmsg": "commitlint -e $GIT_PARAMS"
+    },
+    "dependencies": {
+        "@commitlint/cli": "5.2.5",
+        "@commitlint/config-angular": "5.1.1",
+        "@commitlint/prompt-cli": "5.2.5",
+        "husky": "0.14.3"
+    }
+}
