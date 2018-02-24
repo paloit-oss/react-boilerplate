@@ -26,14 +26,5 @@
     },
     "workspaces": [
         "packages/*"
-    ],
-    "config": {
-        "cli" : {
-            "server" : {
-                "emulatorAPIModules": [
-                    "@paloit-oss/react-boilerplate"
-                ]
-            }
-        }
-    }
+    ]
 }

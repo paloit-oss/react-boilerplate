@@ -1,0 +1,9 @@
+{
+    "cli" : {
+        "server" : {
+            "emulatorAPIModules": [
+                "@paloit-oss/react-boilerplate"
+            ]
+        }
+    }
+}
