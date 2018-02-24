@@ -1,16 +1,16 @@
 {
-    "name": "@paloit-oss/react-typescript-boilerplate",
+    "name": "@paloit-oss/react-boilerplate",
     "private": true,
-    "description": "Boilerplate for ReactJS with Typescript",
+    "description": "Boilerplate for ReactJS",
     "license": "MIT",
-    "repository": "https://github.com/paloit-oss/react-typescript-boilerplate",
+    "repository": "https://github.com/paloit-oss/react-boilerplate",
     "scripts": {
         "commit": "commit",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "reset": "rimraf packages/**/node_modules && rimraf node_modules",
-        "cli": "rct-ts-cli",
+        "cli": "react-cli",
         "server": "server-emulator",
-        "emulate": "rct-ts-cli ema && run-p \"cli ema -w\" \"server\""
+        "emulate": "react-cli ema && run-p \"cli ema -w\" \"server\""
     },
     "devDependencies": {
         "@commitlint/cli": "5.2.5",
@@ -21,7 +21,7 @@
         "rimraf": "2.6.2",
         "npm-run-all": "4.1.2",
 
-        "@paloit-oss/react-typescript-cli": "file:../react-typescript-cli",
+        "@paloit-oss/react-cli": "file:../react-cli",
         "@paloit-oss/server-emulator": "file:../server-emulator"
     },
     "workspaces": [
@@ -31,7 +31,7 @@
         "cli" : {
             "server" : {
                 "emulatorAPIModules": [
-                    "@paloit-oss/react-typescript-boilerplate"
+                    "@paloit-oss/react-boilerplate"
                 ]
             }
         }

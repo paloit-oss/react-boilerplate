@@ -139,7 +139,7 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@paloit-oss/react-typescript-cli@file:../react-typescript-cli":
+"@paloit-oss/react-cli@file:../react-cli":
   version "1.0.0"
   dependencies:
     chalk "2.3.0"
